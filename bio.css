@@ -1,0 +1,59 @@
+
+body{
+    background: linear-gradient(to right, #667eea, #9230bb);
+    font-family: Arial,  sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}
+button{
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover{
+    background:#9230bb;
+}
+.bio{
+    font-size: 14px;
+    color: #444;
+}
+.about{
+    font-size: 14px;
+    color: #444;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+}
+.projects{
+    list-style: none;
+    padding: 0;
+}
+.projects li{
+    background: #f1f1f1;
+    margin: 6px 0;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.skills li{
+    background: #f1f1f1;
+        margin: 6px 0;
+        padding: 8px;
+        border-radius: 6px;
+        font-size: 14px;
+}
