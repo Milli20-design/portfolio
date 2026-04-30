@@ -17,16 +17,21 @@ body{
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     object-fit: cover;
 }
-button{
-    background: #667eea;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 8px;
-    cursor: pointer;
+.contact_text{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    color:white;
 }
-button:hover{
-    background:#9230bb;
+.email-link{
+    color:#00f2ff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.email-link:hover{
+    color:#ffffff;
+    text-decoration: underline;
 }
 .bio{
     font-size: 14px;
