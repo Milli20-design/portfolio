@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+}
 body{
     background: linear-gradient(to right, #667eea, #9230bb);
     font-family: Arial,  sans-serif;
